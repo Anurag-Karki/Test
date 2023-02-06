@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Page</title>
+    
+    <link rel="stylesheet" href="animate.css">
+    <script defer src="move.js"></script>
+</head>
+
+<body>
+    <h1  id="head"> Welcome To Animation World</h1>
+
+    <div class="container">
+        <div id="Banner" class="animated" onmouseenter="banner()" onmouseleave="banner_leave()">
+            <button id="animated">Explore More</button>
+        </div>
+    </div>
+
+    <h1>Scroll to See the Animation</h1>
+
+    <div class="box blue show">
+        <h2>Peace</h2>
+    </div>
+    
+    <div class="box red">
+        <h2>Love</h2>
+    </div>
+
+    <div class="box yellow">
+        <h2>Silence</h2>
+    </div>
+
+    <div class="box green">
+        <h2>Togetherness</h2>
+    </div>
+
+    <div class="box blue">
+        <h2>Sacrifice</h2>
+    </div>
+
+    
+    <div class="box red">
+        <h2>Hatred</h2>
+    </div>
+
+    
+    <div class="box yellow show">
+        <h2>Jealousy</h2>
+    </div>
+
+    
+    <div class="box green show">
+        <h2>Selfishness</h2>
+    </div>
+
+    <div class="card">
+        <span><img class="ring" src="girl.png" onclick="this.style.left='-100vh'"></span>
+        <span><img class="ring" src="boy.png" onclick="this.style.left='100vh'"></span>
+    </div>
+    
+    <div class="foot">
+        <h1 id="blink">...............</h1>
+        <h1>End of the Page</h1>
+    </div>
+
+    
+</body>
+</html>
